@@ -5,7 +5,7 @@
 #include "driver/spi_master.h" // Control del bus SPI
 
 // PLACA Y MÓDULOS
-// ESPWROOM32 XX5R69 ← ILI9341: 5V, GND, G14 (SCLK), G13 (MOSI), G2 (DC), G15 (CS), G26 (RST), G21 (BLK)
+// ESPWROOM32 XX5R69 ← ILI9341: 3.3V, GND, G14 (SCLK), G13 (MOSI), G2 (DC), G15 (CS), G26 (RST), G21 (BLK)
 
 // PINES GPIO (CONFIGURACIÓN SPI PARA ILI9341)
 #define pin_sclk GPIO_NUM_14 // Pin de reloj SPI (Serial Clock)
